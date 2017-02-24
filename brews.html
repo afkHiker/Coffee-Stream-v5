@@ -16,7 +16,38 @@
 <body>
     <div class="flex-container">
         <header class="main-header">
-         <div> 
+             <!-- Button to open the modal login form -->
+<button class="login1"  onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate"  action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img/login.png" alt="Login" class="avatar" >
+    </div>
+
+    <div class="container">
+      <p><label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required></p>
+
+      <p><label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required></p>
+
+      <p><button type="submit" class="login">Login</button>
+      <input type="checkbox" checked="checked"> Remember me</p>
+    </div>
+
+    <div class="container" style="background-color:#333333">
+      <p><button type="button" class="cancel" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button></p>
+      <p><span class="psw">Forgot <a href="#">password?</a></span></p>
+    </div>
+  </form>
+</div>
+         <div>  
 <!-- Add Company Name Here -->
             <div><h1 class="name"><a href="index.html"><i>Welcome to <strong>Coffee Stream</strong></i>!</a></h1></div>
 <!-- Add or Edit Page Names and Links Here -->
