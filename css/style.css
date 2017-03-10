@@ -1,5 +1,5 @@
 /* ================================= 
-  Base Element Styles
+    Base Element Styles
 ==================================== */
 
 * {
@@ -20,65 +20,56 @@ p {
 
 h2, {
 	color: #5a270c;
-	
-}
+	}
 h3, {
 	color: #5a270c;
 }
 a {
 	color: #150600;
 }
-
 h4 {
 	margin-top: 0;
 }
-
 h4 {
 	margin-bottom: 0;
 }
-
 a {
 	text-decoration: none;
 }
-
 img {
 	width: 100%;
 }
-
 figure {
 	margin: 0;
 	line-height: 0;
 	position: relative;
 }
-
 figcaption {
 	font-size: .7em;
 	line-height: 1.5em ;
 	color: #fff;
 	padding: 1em;	
 	background: rgba(139,69,19,.85);
-	
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
-
 #image{
    margin:100px 100px;
 }
 .active{
     background: #fef1d9;
-/*  border-radius: 15px;
+/*  border-radius: 15px;  /******* Not used at this time  *******/
     background: #fef1d9;
     padding: 0px;
     width: 260px;
     height: 40px;
     bottom: 0;
-   ## .active edits the background color of the navigation pages  */ 
+  /* ## .active edits the background color of the navigation pages  */ 
 }
 
 /* ================================= 
-  Base Layout Styles
+    Base Layout Styles
 ==================================== */
 
 .name {
@@ -86,12 +77,10 @@ figcaption {
 	margin: 0;
 	text-align: right;
 }
-
 .main-nav {
 	margin-top: 0px;
     padding: 0px;
 }
-
 	.name a,
 	.main-nav a {
         text-align: left;
@@ -100,8 +89,7 @@ figcaption {
 		padding: 5px 5px;
 		color: #5a270c;
 	}
-	
-	.main-nav a {
+		.main-nav a {
 		font-size: 1em;
 		color: #5a270c;
 		text-transform: uppercase;
@@ -114,7 +102,7 @@ figcaption {
 
 
 /* ================================= 
-  Layout Containers
+    Layout Containers
 ==================================== */
 
 .main-header {
@@ -147,7 +135,7 @@ figcaption {
 }
 
 /* ================================= 
-  Page Elements
+    Page Elements
 ==================================== */
 
 .logo {
@@ -178,7 +166,7 @@ figcaption {
 }
 
 /* ================================= 
-  Media Queries
+    Media Queries
 ==================================== */
 
 @media (min-width: 300px) {
@@ -195,26 +183,21 @@ figcaption {
 		top: 0;
 		z-index: 1000;
 	}
-
 	.container {
 		width: 90%;
 		margin: 0 auto;
 	}
-
 	.name,
 	.col {
 		float: left;
 	}
-
 	.primary,
 	.secondary {
 		width: 50%;
 	}
-
 	.main-nav {
 		float: right;
 	}
-
 	.main-nav li {
 		display: inline-block;
 		margin-left: 15px;
@@ -224,8 +207,9 @@ figcaption {
 		font-size: 1.4em;
 	}
 }
+
 /* ================================= 
-  Float Clearfix
+    Float Clearfix
 ==================================== */   
 
 	.clearfix::after {
@@ -235,7 +219,7 @@ figcaption {
 	}
 
 /* ================================= 
-  Media
+    Media
 ==================================== */
 
 @media (min-width: 1025px) {
@@ -244,16 +228,13 @@ figcaption {
 		width: 80%;
 		max-width: 1150px;
         }
-
 	.primary {
 		width: 33%;
 	}
-
 	.secondary,
 	.letfColumn {
 		width: 33%;
 	}
-    
     .map {
         width: 100%;
         margin: 100 auto;   
@@ -263,7 +244,7 @@ figcaption {
     }
 }
 /* ================================= 
-  Contact Form
+    Contact Form
 ==================================== */
 
 body {
@@ -272,14 +253,12 @@ body {
   color: #fff;
   padding: 50px 0;
 }
-
 .container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
-
 .container * {
   box-sizing: border-box;
 }
@@ -353,13 +332,12 @@ body {
   border-radius: 2px;
 }
 
-    
 .flex-inner li {
   width: 100px;
 }
     
 /* ================================= 
-  Rotating Images
+    Rotating Images
 ==================================== */
 
 #rotating-item-wrapper {
@@ -375,14 +353,15 @@ body {
 }
 
 /* ================================= 
-  Social Icons
+    Social Icons
 ==================================== */
 
 .footer-social { 
     float: right; 
     margin-top: 15; 
     padding: 35px; 
-    border: 5px;}
+    border: 5px;
+}
 
 .footer-social li { 
     display: inline; 
@@ -404,7 +383,7 @@ body {
   Modal Login Stuff
 ==================================== */
 
- /* The Modal (background) */
+ /******* Modal Background *******/
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -419,7 +398,7 @@ body {
     padding-top: 160px;
 }
 
-/* Modal Content/Box */
+/******* Modal Content Box *******/
 .modal-content {
     background-color: #2F3125;
     margin: 15px auto; /* 15% from the top and centered */
@@ -428,7 +407,7 @@ body {
     height: 770px;
 }
 
-/* The Close Button */
+/******* The Close Button *******/
 .close {
     /* Position it in the top right corner outside of the modal */
     position: absolute; 
@@ -439,14 +418,14 @@ body {
     font-weight: bold;
 }
 
-/* Close button on hover */
+/******* Close button on hover *******/
 .close:hover,
 .close:focus {
     color: red;
     cursor: pointer;
 }
 
-/* Add Zoom Animation */
+/******* Add Zoom Animation *******/
 .animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
@@ -481,4 +460,4 @@ body {
         color: #fff;
         background: #5a270c!important;
 }
-/******* Media Additions *******/
+/******* Media Additions TO BE ADDED *******/
