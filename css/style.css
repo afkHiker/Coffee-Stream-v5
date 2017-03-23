@@ -1,6 +1,4 @@
-/* ================================= 
-    Base Element Styles
-==================================== */
+/******* Base Element *******/
 
 * {
 	box-sizing: border-box;
@@ -68,9 +66,7 @@ figcaption {
   /* ## .active edits the background color of the navigation pages  */ 
 }
 
-/* ================================= 
-    Base Layout Styles
-==================================== */
+/******* Base Layout *******/
 
 .name {
 	font-size: 2em;
@@ -100,10 +96,7 @@ figcaption {
 		color: #fcb040;
 	}
 
-
-/* ================================= 
-    Layout Containers
-==================================== */
+/******* Layout Containers *******/
 
 .main-header {
 	padding-top: .1em;
@@ -134,9 +127,7 @@ figcaption {
 	margin-top: 30px;
 }
 
-/* ================================= 
-    Page Elements
-==================================== */
+/******* Page Elements *******/
 
 .logo {
 	width: 50%;
@@ -165,9 +156,7 @@ figcaption {
 	border-radius: .35em;
 }
 
-/* ================================= 
-    Media Queries
-==================================== */
+/******* Media Queries *******/
 
 @media (min-width: 300px) {
 
@@ -208,9 +197,7 @@ figcaption {
 	}
 }
 
-/* ================================= 
-    Float Clearfix
-==================================== */   
+/******* Float Clearfix *******/ 
 
 	.clearfix::after {
 		content: " ";
@@ -218,9 +205,7 @@ figcaption {
 		clear: both;
 	}
 
-/* ================================= 
-    Media
-==================================== */
+/******* Media Queries *******/
 
 @media (min-width: 1025px) {
 	
@@ -243,9 +228,7 @@ figcaption {
       text-align: center;  
     }
 }
-/* ================================= 
-    Contact Form
-==================================== */
+/******* Contact Form *******/
 
 body {
   font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
@@ -336,9 +319,7 @@ body {
   width: 100px;
 }
     
-/* ================================= 
-    Rotating Images
-==================================== */
+/******* Rotating Images *******/
 
 #rotating-item-wrapper {
 	position: relative;
@@ -352,9 +333,7 @@ body {
 	left: 0;
 }
 
-/* ================================= 
-    Social Icons
-==================================== */
+/******* Social Icons *******/
 
 .footer-social { 
     float: right; 
@@ -378,10 +357,6 @@ body {
 .test{
     float: none;
 }
-
-/* ================================= 
-  Modal Login Stuff
-==================================== */
 
  /******* Modal Background *******/
 .modal {
