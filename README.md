@@ -1,7 +1,10 @@
-# Coffee-Stream-v5
-Updated
-An Adaptive Coffee Shop Template, Versitle and Adaptive to the needs of anyone.
+# Coffee-Stream-v5.2
+# Larry Singleton, Afk_hiker@yahoo.com
 
-- Rotating Images can be interchanged.
-- Pages can be Added or Deleted
-- More to be Added
+Last Updated 03-30-2017
+
+An HTML Website Template, it's Versitle and Adaptive matching the theme of a Coffee Shop.
+
+This theme is not for sale nor for personal use. 
+
+
